@@ -23,13 +23,13 @@ For the "Outcomes Based On Goals" analysis, I had trouble applying the COUNTIFS(
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-![Outcomes Based on Launch Date chart](Outcomes_vs_Launch.png)
+![Outcomes Based on Launch Date chart](/Resources/Outcomes_vs_Launch.png)
 
 From a quick glance at the chart it can be determined that the most campaigns that reached their funding goals were launched from May to July. What this indicates is that plays are more likely to be shown in the summer, and/or audiences are more likely to go out to see plays. Meanwhile, it appears that the launch date had little effect on the campaigns that failed, as there were between 31 and 50 failed campaigns per month with no clear peaks. Some other factor probably had an influence.
 
 - What can you conclude about the Outcomes based on Goals?
 
-![Outcomes Based on Goals chart](Outcomes_vs_Goals.png)
+![Outcomes Based on Goals chart](/Resources/Outcomes_vs_Goals.png)
 
 From less than $1000 to $24999, it seems that there is a slight downward trend in the success rate of campaigns as the funding goal increases. However, there is a sharp decline in the success percentage from $25000 to $29999, and then a sharp increase from $35000 to $44999, finally dropping to very low percents from $45000 upwards. Why there is an increase in success from $35000 to $44999 is hard to determine from the graph alone, but looking at the chart it can be seen that within this range there were very few campaigns launched overall, compared to the hundreds of campaigns with lower funding goals. This smaller sample size leads to much greater outliers in the success percentage.
 
