@@ -8,13 +8,13 @@ The purpose of this analysis is to determine the outcomes of Kickstarter campaig
 
 ### Analysis of Outcomes Based on Launch Date
 
-![Outcomes Based on Launch Date PivotTable](/Resources/Outcomes_vs_Launch_table.png)
+![Outcomes Based on Launch Date PivotTable](/Resources/Outcomes_vs_Launch_Table.png)
 
 The first analysis looked at how many successful or failed Kickstarter campaigns launched each month, and whether there was a relationship between time of the year and a campaign's success. First, a pivot table was created from the "Kickstarter" sheet that featured the data in the "Goal", "Outcomes", "Subcategory", and "Date Created Conversion" columns. This pivot table was then filtered so that the "Parent Category" only showed "theater" and the campaign outcomes were filtered so that "successful" was shown first. A line chart was created with the months as the X axis and the number of projects with each outcome as the Y axis. Each line shows each separate outcome.
 
 ### Analysis of Outcomes Based on Goals
 
-![Outcomes Based on Goals PivotTable showing the usage of the COUNTIFS() function](/Resources/Outcomes_vs_Goals_table.png)
+![Outcomes Based on Goals PivotTable showing the usage of the COUNTIFS() function](/Resources/Outcomes_vs_Goals_Table.png)
 
 This analysis was more detailed and required more filtering of the data. I wanted to look at the percentage of campaigns that were successful at differently sized funding goals. To start, I created a new sheet called "Outcomes Based On Goals" and created multiple categories in the "Goal" column with $5000 ranges. The two categories at the lower and upper ends had goals of less than $1000 and more than $50000, because it was assumed that these categories might have outliers. To gather and separate the specific data I needed, I created three new columns, each showing the number of successful, failed, and canceled campaigns. To count the number of campaigns with each outcome, I used the COUNTIFS() function. For each funding goal range, the criteria were an Outcome of "successful", a Subcategory of "plays", and a Goal falling within the corresponding range. A "Total Projects" column was created that used the SUM() function to count the total number of projects in each category, and then the number of projects with each outcome was divided by the total number of projects and converted into percentages, which populated columns F through H. A line chart was created showing the categories of funding goals on the X axis and the percentage of projects on the Y axis. Each colored line represents each outcome.   
 
